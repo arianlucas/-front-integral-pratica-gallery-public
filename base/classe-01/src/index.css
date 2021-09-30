@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.roboto {
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-side {
+  background-color: #313131;
+
+  padding: 20px;
+
+  gap: 40px;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: 1;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.blackcolor {
+  color: #888888;
+}
+
+.menu-buttons {
+  all: unset;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+}
+
+.menu-buttons span {
+  margin-left: 15px;
+}
+
+.final {
+  margin-top: auto;
+}
+
+.main {
+  text-align: center;
+
+  flex-grow: 1;
+
+  margin-bottom: 50px;
+}
+
+.main h1 {
+  margin: 50px 0;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+.gallery {
+  gap: 40px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.imagens {
+  padding-left: 40px;
+  position: relative;
+}
+
+.legendas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.legendas .descricao {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.legendas .tempo {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #5c5c5c;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+
+  z-index: 1;
+}
+
+.modal div {
+  position: relative;
+}
+
+.modal_img {
+  width: 555px;
+  height: 370px;
+}
+
+.item__like,
+.modal__like {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.modal .fechar-modal {
+  position: absolute;
+  top: 90px;
+  right: 45px;
+}
+
+.modal button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+.modal button:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
